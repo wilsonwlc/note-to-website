@@ -49,7 +49,7 @@ $$
 1. Compile the ANOVA table 
 2. Calculate test statistics $F=\frac{MS_{A}}{MS_{E}}$
 3. Under $H_{0}$, $F \sim F_{k-1, n-k}$ 
-4. Reject $H_{0}$ at significance level $\alpha$ if $F > F_{1-\alpha, df = k-1, n-k}$ 
+4. Reject $H_{0}$ at significance level $\alpha$ if $F > F_{\alpha, df = k-1, n-k}$ 
 ### Model diagnostics
 - Normality of errors
 - Constant variance (homoscedasticity)

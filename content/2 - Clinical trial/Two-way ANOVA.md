@@ -53,13 +53,13 @@ $$y_{ijk} = \mu + \alpha_{i} + \beta_{j} + \gamma_{ij} + \varepsilon_{ijk}$$
 - Interaction sum of squares $$SS_{AB} = \sum\limits_{i} \sum\limits_{j} n_{ij}\overline{y}_{ij}^{2} - \sum\limits_{i} n_{i+} \overline{y}_{i+}^{2} - \sum\limits_{j} n_{+j} \overline{y}_{+j}^{2} + n\overline{y}^{2} $$
 - Total sum of squares $$SS_{T} = SS_{A} + SS_{B} + SS_{AB} + SS_{E}$$
 ##### ANOVA table
-| Source      | SS        | d.f.         | MS                                     | F-ratio                  | Critical value                   |
-| ----------- | --------- | ------------ | -------------------------------------- | ------------------------ | -------------------------------- |
-| Factor A    | $SS_{A}$  | $I-1$        | $MS_{A} = \frac{SS_{A}}{I-1}$          | $\frac{MS_{A}}{MS_{E}}$  | $F_{1-\alpha, I-1, n-IJ}$        |
-| Factor B    | $SS_{B}$  | $J-1$        | $MS_{B} = \frac{SS_{B}}{J-1}$          | $\frac{MS_{B}}{MS_{E}}$  | $F_{1-\alpha, J-1, n-IJ}$        |
-| Interaction | $SS_{AB}$ | $(I-1)(J-1)$ | $MS_{AB} = \frac{SS_{AB}}{(I-1)(J-1)}$ | $\frac{MS_{AB}}{MS_{E}}$ | $F_{1-\alpha, (I-1)(J-1), n-IJ}$ |
-| Error       | $SS_{E}$  | $n-IJ$       | $MS_{E} = \frac{SS_{E}}{{n-IJ}}$       |                          |                                  |
-| Total       | $SS_{T}$  | $n-1$        |                                        |                          |                                  |
+| Source      | SS        | d.f.         | MS                                     | F-ratio                  | Critical value                 |
+| ----------- | --------- | ------------ | -------------------------------------- | ------------------------ | ------------------------------ |
+| Factor A    | $SS_{A}$  | $I-1$        | $MS_{A} = \frac{SS_{A}}{I-1}$          | $\frac{MS_{A}}{MS_{E}}$  | $F_{\alpha, I-1, n-IJ}$        |
+| Factor B    | $SS_{B}$  | $J-1$        | $MS_{B} = \frac{SS_{B}}{J-1}$          | $\frac{MS_{B}}{MS_{E}}$  | $F_{\alpha, J-1, n-IJ}$        |
+| Interaction | $SS_{AB}$ | $(I-1)(J-1)$ | $MS_{AB} = \frac{SS_{AB}}{(I-1)(J-1)}$ | $\frac{MS_{AB}}{MS_{E}}$ | $F_{\alpha, (I-1)(J-1), n-IJ}$ |
+| Error       | $SS_{E}$  | $n-IJ$       | $MS_{E} = \frac{SS_{E}}{{n-IJ}}$       |                          |                                |
+| Total       | $SS_{T}$  | $n-1$        |                                        |                          |                                |
 
 ### Test
 1. Test the interaction effect $A \times B$
