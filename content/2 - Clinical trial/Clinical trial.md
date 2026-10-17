@@ -6,13 +6,13 @@
 		- *Why we need precise eligibility criteria:*
 			- Improve external validity *i.e.* enhance the extent to which the trial results can be generalised to the target population
 			- Ensure patient safety. *Reason:* some patients may be at higher risk of adverse effects from the treatment being studied *e.g.* pregnant women if the drug may harm the foetus
-			- Improve internal validity *i.e.* ensure the observed treatment effect can be attributed to the treatment rather than to other factors such as **bias** and **confounding**
+			- Improve internal validity *i.e.* ensure the observed treatment effect can be attributed to the treatment rather than to other factors such as [[Bias|bias]] and [[Confounding factor|confounding]]
 		- *How should we define precise eligibility criteria:* consider
 			- Source of patient recruitment *e.g.* only in-patients recruited from hospitals for a study of depression may form an atypical patient population
 			- Disease state under investigation *e.g.* some disease conditions may vary considerably in severity or diagnostic definition, which can complicate patient selection
 			- Specific criteria for exclusion of patients *e.g.* restrict entry to previously untreated patients to avoid diminishing / attenuation of the treatment effect
-	- **Treatment**, **Standard treatment**, **placebo**: 
-		- *What is treatment:* a condition or intervention assigned to participants for comparison. Examples include drug therapies (e.g., different drugs or dosages), surgical procedures, cancer therapies, behavioural interventions, and patient-management strategies.
+	- **Treatment**, **Standard treatment**, **Placebo**: 
+		- *What is treatment:* a condition or intervention assigned to participants for comparison. Examples include drug therapies (e.g., different drugs or dosages), surgical procedures, cancer therapies, behavioural interventions, and patient-management strategies
 		- *What is standard treatment:* the treatment currently being used and considered effective on the basis of existing evidence
 		- *What is placebo:* an inactive substance or sham treatment designed to resemble the active intervention but lacking its specific therapeutic effect
 	- **Treatment group** & **Control group**
@@ -47,7 +47,6 @@
 - *Success rate:* approximately 33% of drugs move to the next phase
 - *Purpose:* determine its effectiveness and to further study its safety
 ##### Phase III
-- Aka **pivotal studies**
 - *Size:* several hundred to several thousand patients *e.g.* 300 to 3,000. often conducted across multiple centres or hospitals
 - *Length of study:* 1 to 4 years
 - *Success rate:* approximately 25-30% of drugs move to the next phase
@@ -58,9 +57,9 @@
 - *Purpose:* track the safety (*i.e.* **pharmacovigilance**) in the general population, seek more information about a drug or treatment's benefits, and optimal use
 ### Design
 - Treatment structure
-	- Parallel-group design
-	- Crossover design
-	- Factorial design
+	- [[Parallel group design]]
+	- [[Factorial design]]
+	- [[Crossover Trials|Crossover design]]
 - Randomisation design
-	- Completely randomised design (CRD)
-	- Randomised Complete Block Design (RCBD)
+	- [[Completely randomised design (CRD)]]
+	- [[Randomised complete block design (RCBD)]]

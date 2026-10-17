@@ -1,0 +1,2 @@
+### Concept
+- *What is it:* an experimental design in which participants are [[Randomisation|randomly]] assigned to one of two or more study arms, and each participant remains in the same treatment group throughout the study
