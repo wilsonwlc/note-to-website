@@ -1,5 +1,5 @@
 ### Assumption
-- No carryover effect *i.e.* The wash-out period is sufficiently long for the effect of the first treatment to wash out.
+- No carryover effect *i.e.* The wash-out period is sufficiently long for the effect of the first treatment to wash out. ^6e2141
 ### Model
 | Sequence | Period | Model                                                            |
 | -------- | ------ | ---------------------------------------------------------------- |
