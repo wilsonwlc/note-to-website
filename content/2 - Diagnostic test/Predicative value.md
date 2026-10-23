@@ -7,13 +7,13 @@ $$\begin{align*} PPV &= \mathrm{Pr}(Present|Positive) \\ &= \frac{\mathrm{Pr}(+|
 - $p_{se}$ and $p_{sp}$ are [[Sensitivity|sensitivity]] and [[Specificity|specificity]] respectively
 - $LR^{+}$ and $LR^{-}$ are [[Likelihood Ratio|Likelihood Ratio]]
 - $p_{v}$: [[Prevalence|Prevalence]]
-- *Reason:* **Bayes rules**
+- *Reason:* [[Bayes' Theorem|Bayes rules]]
 #### Negative predictive value (NPV)
 $$\begin{align*} NPV &= \mathrm{Pr}(Absent|Negative) \\ &= \frac{\mathrm{Pr}(-|Absent) \mathrm{Pr}(Absent)}{\mathrm{Pr}(-|Absent)\mathrm{Pr}(Absent) + \mathrm{Pr}(-|Present) \mathrm{Pr}(Present)} \\ &= \frac{p_{sp}(1-p_{v})}{p_{sp}(1-p_{v})+(1-p_{se})p_{v}} \\ &= \frac{1-p_{v}}{(1-p_{v})+LR^{-}p_{v}} \end{align*}$$
 - $p_{se}$ and $p_{sp}$ are [[Sensitivity|sensitivity]] and [[Specificity|specificity]] respectively
 - $LR^{+}$ and $LR^{-}$ are [[Likelihood Ratio|Likelihood Ratio]]
 - $p_{v}$: [[Prevalence|Prevalence]]
-- *Reason:* **Bayes rules**
+- *Reason:* [[Bayes' Theorem|Bayes rules]]
 ### Example
 - Assume a test is used on a random person
 - If the prevalence representing the proportion of a disease in the general population is 0.3%, the false negative rate of the test is 1%, the false positive rate is 2%, then

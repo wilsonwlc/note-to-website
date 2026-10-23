@@ -11,5 +11,8 @@ By Kolmogorov's Axioms, ![[Kolmogorov's Axioms#Axioms]]
 	- For an increasing sequence *i.e.* $E_{1} \subset E_{2} \subset \cdots \subset E_{n} \subset E_{n+1} \subset \cdots$, $$\lim_{n \to \infty} E_{n} = \bigcup_{i=1}^{\infty} E_{i}$$
 	- For a decreasing sequence *i.e.* $E_{1} \supset E_{2} \supset \cdots \supset E_{n} \supset E_{n+1} \supset \cdots$, $$\lim_{n \to \infty} E_{n} = \bigcap_{i=1}^{\infty} E_{i}$$
 - If $\{E_{n} : n\geq 1\}$ is an increasing (or decreasing) sequence of events, then $$P \left( \lim_{n \to \infty} E_{n} \right) = \lim_{n \to \infty} P \left( E_{n} \right)$$
+- [[Law of Total Probability]]
+- [[Bayes' Theorem]]
+
 ### Type
 - [[Conditional probability]]
