@@ -16,7 +16,12 @@ $$
 $$
 \begin{align*} \sigma^{2}  &= E\left((X - \mu)^{2}\right) \\ &= E\left(X^{2} - 2\mu X + \mu^{2}\right) \\ &= E\left(X^{2}\right) - 2\mu E(X) + \mu^{2} \\ &= E \left(X^{2}\right) - \mu^{2} \end{align*}
 $$
-- Let $X$ be a random variable and $a$, $c$ be two constants. 
+- Let $X$ be a random variable and $a$, $c$ be two constants
 $$
 Var(aX + c) = a^{2}Var(X)
 $$
+- [[Conditional expectation|Conditional expectation]] and [[Conditional variance|conditional variance]]: $$Var(X) = E(Var(X \mid Y)) + Var(E(X \mid Y))$$
+	- *Proof:* 
+	$$
+	\begin{align*} E(\operatorname{Var}(X \mid Y)) &= E\left\{ E(X^{2} \mid Y) - \left(E(X \mid Y)\right)^{2} \right\} \\ &= E(X^{2}) - E\left\{ \left(E(X \mid Y)\right)^{2} \right\} \\  \end{align*}
+	$$
