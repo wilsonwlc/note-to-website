@@ -3,13 +3,17 @@
 - *Pre-requisite:* [[Prevalence|Prevalence]]
 ### Formula
 #### Positive predictive value (PPV)
-$$\begin{align*} PPV &= \mathrm{Pr}(Present|Positive) \\ &= \frac{\mathrm{Pr}(+|Present)\mathrm{Pr}(Present)}{\mathrm{Pr}(+|Present)\mathrm{Pr}(Present) + \mathrm{Pr}(+|Absent)\mathrm{Pr}(Absent)} \\&= \frac{p_{se}p_{v}}{p_{se}p_{v}+(1-p_{sp})(1-p_{v})} \\ &= \frac{LR^{+} p_{v}}{LR^{+}p_{v}+(1-p_{v})} \end{align*}$$
+$$
+\begin{align*} PPV &= \mathrm{Pr}(Present|Positive) \\ &= \frac{\mathrm{Pr}(+|Present)\mathrm{Pr}(Present)}{\mathrm{Pr}(+|Present)\mathrm{Pr}(Present) + \mathrm{Pr}(+|Absent)\mathrm{Pr}(Absent)} \\&= \frac{p_{se}p_{v}}{p_{se}p_{v}+(1-p_{sp})(1-p_{v})} \\ &= \frac{LR^{+} p_{v}}{LR^{+}p_{v}+(1-p_{v})} \end{align*}
+$$
 - $p_{se}$ and $p_{sp}$ are [[Sensitivity|sensitivity]] and [[Specificity|specificity]] respectively
 - $LR^{+}$ and $LR^{-}$ are [[Likelihood Ratio|Likelihood Ratio]]
 - $p_{v}$: [[Prevalence|Prevalence]]
 - *Reason:* [[Bayes' Theorem|Bayes rules]]
 #### Negative predictive value (NPV)
-$$\begin{align*} NPV &= \mathrm{Pr}(Absent|Negative) \\ &= \frac{\mathrm{Pr}(-|Absent) \mathrm{Pr}(Absent)}{\mathrm{Pr}(-|Absent)\mathrm{Pr}(Absent) + \mathrm{Pr}(-|Present) \mathrm{Pr}(Present)} \\ &= \frac{p_{sp}(1-p_{v})}{p_{sp}(1-p_{v})+(1-p_{se})p_{v}} \\ &= \frac{1-p_{v}}{(1-p_{v})+LR^{-}p_{v}} \end{align*}$$
+$$
+\begin{align*} NPV &= \mathrm{Pr}(Absent|Negative) \\ &= \frac{\mathrm{Pr}(-|Absent) \mathrm{Pr}(Absent)}{\mathrm{Pr}(-|Absent)\mathrm{Pr}(Absent) + \mathrm{Pr}(-|Present) \mathrm{Pr}(Present)} \\ &= \frac{p_{sp}(1-p_{v})}{p_{sp}(1-p_{v})+(1-p_{se})p_{v}} \\ &= \frac{1-p_{v}}{(1-p_{v})+LR^{-}p_{v}} \end{align*}
+$$
 - $p_{se}$ and $p_{sp}$ are [[Sensitivity|sensitivity]] and [[Specificity|specificity]] respectively
 - $LR^{+}$ and $LR^{-}$ are [[Likelihood Ratio|Likelihood Ratio]]
 - $p_{v}$: [[Prevalence|Prevalence]]

@@ -1,6 +1,9 @@
 ## Probability density function (pdf)
 ### Definition
-If $F$ is differentiable, then $$f(x) = \lim_{t \rightarrow 0} \frac{P(X \le x+t) - P(X \le x)}{t} = \frac{d}{dx} F(x)$$
+If $F$ is differentiable, then 
+$$
+f(x) = \lim_{t \rightarrow 0} \frac{P(X \le x+t) - P(X \le x)}{t} = \frac{d}{dx} F(x)
+$$
 ### Property
 - $f(x) \geq 0$ for all $x$
 - $\int_{-\infty}^{\infty} f(x) = 1$
@@ -11,4 +14,7 @@ If $F$ is differentiable, then $$f(x) = \lim_{t \rightarrow 0} \frac{P(X \le x+t
 ### Caution
 - $f(x)$ is NOT a [[Probability|probability]]
 ### Interpretation
-- $f(a)$ is a measure of how likely it is that the random variable will be near $a$. *Reason:* For a small $\epsilon >0$, $$\begin{align*} P\left(a - \frac{\varepsilon}{2} \le X \le a + \frac{\varepsilon}{2}\right) &= \int_{a - \frac{\varepsilon}{2}}^{a + \frac{\varepsilon}{2}} f(x) dx \\ &\approx \varepsilon f(a)\end{align*}$$ 
+- $f(a)$ is a measure of how likely it is that the random variable will be near $a$. *Reason:* For a small $\epsilon >0$, 
+$$
+\begin{align*} P\left(a - \frac{\varepsilon}{2} \le X \le a + \frac{\varepsilon}{2}\right) &= \int_{a - \frac{\varepsilon}{2}}^{a + \frac{\varepsilon}{2}} f(x) dx \\ &\approx \varepsilon f(a)\end{align*}
+$$ 

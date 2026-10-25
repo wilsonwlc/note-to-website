@@ -1,7 +1,10 @@
 ### Definition
 Consider [[Event & occurrence|event]] $A$ and $B$. 
 Assume $P(B) > 0$
-The **conditional probability** of $A$ given the occurrence of B is written as and is defined as $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+The **conditional probability** of $A$ given the occurrence of B is written as and is defined as 
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
 ### Interpretation
 - When part of the outcome is fixed *i.e.* we have some information in advance, then the calculation of probability of its occurrence should be restricted to a smaller sample space based on the new information
 - $P(A|B) \geq P(A \cap B)$

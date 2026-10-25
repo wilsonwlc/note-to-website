@@ -6,7 +6,9 @@
 - Rapid assessment is not required
 ### Formula
 - Suppose we have $k$ different tests
-$$\begin{align*} \text{overall sensitivity} &=  \prod_{i=1}^{k} p_{se,i} \\ \text{overall specificity} &= 1 -\prod_{i=1}^{k} (1-p_{sp,i}) \end{align*}$$
+$$
+\begin{align*} \text{overall sensitivity} &=  \prod_{i=1}^{k} p_{se,i} \\ \text{overall specificity} &= 1 -\prod_{i=1}^{k} (1-p_{sp,i}) \end{align*}
+$$
 - $p_{se, i}$: sensitivity of the $i^{th}$ test
 - $p_{sp,i}$: specificity of the $i^{th}$ test
 ### Interpretation

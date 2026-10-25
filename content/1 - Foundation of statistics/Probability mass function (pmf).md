@@ -1,5 +1,8 @@
 ### Definition
-The **probability mass function (pmf)** of a discrete random variable $X$ is defined as $$p(x)=P(X=x)$$
+The **probability mass function (pmf)** of a discrete random variable $X$ is defined as 
+$$
+p(x)=P(X=x)
+$$
 - $X(\Omega)$ is the countable set of possible values of $X$
 - $x \in X(\Omega)$
 ### Condition

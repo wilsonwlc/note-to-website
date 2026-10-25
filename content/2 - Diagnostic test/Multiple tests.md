@@ -3,7 +3,10 @@
 ### Calculation
 - Suppose $n$ independent tests were performed
 - Let $X$ be the number of positive test results
-- If $X=k$, then $$\begin{align*} \text{post-test odds} &=  \text{pre-test odds} \times (LR^{+})^{k} \times (LR^{-})^{n-k} \\ \mathrm{Pr}(Present|X=k) &= \frac{p_{v}(LR^{+})^{k}(LR^{-})^{n-k}}{(1-p_{v})+p_{v}(LR^{+})^{k}(LR^{-})^{n-k}} \end{align*}$$
+- If $X=k$, then 
+$$
+\begin{align*} \text{post-test odds} &=  \text{pre-test odds} \times (LR^{+})^{k} \times (LR^{-})^{n-k} \\ \mathrm{Pr}(Present|X=k) &= \frac{p_{v}(LR^{+})^{k}(LR^{-})^{n-k}}{(1-p_{v})+p_{v}(LR^{+})^{k}(LR^{-})^{n-k}} \end{align*}
+$$
 ### Assumption
 - The multiple tests results are statistically independent. 
 	- This assumption can be guaranteed by proper design of the test procedure

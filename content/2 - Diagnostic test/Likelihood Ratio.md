@@ -1,7 +1,9 @@
 ### Concept
 - *Why we need it:* describe the performance of a [[Diagnostic test|diagnostic test]] *i.e.* the ability to discriminate between diseased and non-diseased people
 ### Formula
-$$\begin{align*} LR^{+} &= \frac{\mathrm{Pr}(Positive|Present)}{\mathrm{Pr}(Positive|Absent)} = \frac{p_{se}}{1-p_{sp}} \\ LR^{-} &= \frac{\mathrm{Pr}(Negative|Present)}{\mathrm{Pr}(Negative|Absent)} = \frac{1-p_{se}}{p_{sp}} \end{align*}$$
+$$
+\begin{align*} LR^{+} &= \frac{\mathrm{Pr}(Positive|Present)}{\mathrm{Pr}(Positive|Absent)} = \frac{p_{se}}{1-p_{sp}} \\ LR^{-} &= \frac{\mathrm{Pr}(Negative|Present)}{\mathrm{Pr}(Negative|Absent)} = \frac{1-p_{se}}{p_{sp}} \end{align*}
+$$
 ### Interpretation
 - Large value of $LR^{+}$ and small value of $LR^{-}$ would be desirable for an accurate test
 ### Example

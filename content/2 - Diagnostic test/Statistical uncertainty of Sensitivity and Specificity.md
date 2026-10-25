@@ -7,11 +7,18 @@
 ### Formula
 Assume $X \sim \mathrm{Bin}(n,p)$
 #### 2-sided approximate CI
-$$\hat{p} \pm z_{\frac{\alpha}{2}} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
-- *Reason:* Use **Central Limit Theorem** to approximate the binomial distribution *i.e.* $$\frac{\hat{p}-p}{\sqrt{\frac{p(1-p)}{n}}} \mathop{\longrightarrow}\limits^{d} N(0,1)$$
+$$
+\hat{p} \pm z_{\frac{\alpha}{2}} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+$$
+- *Reason:* Use **Central Limit Theorem** to approximate the binomial distribution *i.e.* 
+$$
+\frac{\hat{p}-p}{\sqrt{\frac{p(1-p)}{n}}} \mathop{\longrightarrow}\limits^{d} N(0,1)
+$$
 - *When:* $np$ and $n(1-p)$ are greater than or equal to 5
 #### 1-sided exact CI
-$$\begin{align*} [0, p_{U}) \hspace{5mm} \text{where } \sum\limits_{j=0}^{X_{obs}} \binom{n}{j} p_{U}^{j} (1-p_{U})^{n-j} &= \alpha \\ (p_{L},1] \hspace{5mm} \text{where } \sum\limits_{j=X_{obs}}^{n} \binom{n}{j} p_{L}^{j} (1-p_{L})^{n-j} &= \alpha \end{align*}$$
+$$
+\begin{align*} [0, p_{U}) \hspace{5mm} \text{where } \sum\limits_{j=0}^{X_{obs}} \binom{n}{j} p_{U}^{j} (1-p_{U})^{n-j} &= \alpha \\ (p_{L},1] \hspace{5mm} \text{where } \sum\limits_{j=X_{obs}}^{n} \binom{n}{j} p_{L}^{j} (1-p_{L})^{n-j} &= \alpha \end{align*}
+$$
 - *When:* the sample size is small
 ### Example
 | Test      | Disease - Present | Disease - Absent |
@@ -30,6 +37,9 @@ $$\begin{align*} [0, p_{U}) \hspace{5mm} \text{where } \sum\limits_{j=0}^{X_{obs
 - $X \sim \mathrm{Bin}(n,p_{sp})$, where $n$ is the number of actual negative and $p_{sp}$ is the specificity
 - Since $\hat{p}_{sp}=1$, an exact one-sided upper $(1-\alpha)\times 100\%$ C.I. for $p_{sp}$ should be constructed
 - $X_{observed} = 30$ 
-- The lower limit $p_{L}$ in $(p_{L},1]$ can be calculated from $$\begin{align*} \sum\limits_{j=X_{obs}}^{n} \binom{n}{j} p_{L}^{j} (1-p_{L})^{n-j} &= \alpha \\ \sum\limits_{j=30}^{30} \binom{n}{j} p_{L}^{j} (1-p_{L})^{30-j} &= 0.05 \\ p_{L}^{30} &= 0.05 \\ p_{L} &= 0.905\end{align*}$$
+- The lower limit $p_{L}$ in $(p_{L},1]$ can be calculated from 
+$$
+\begin{align*} \sum\limits_{j=X_{obs}}^{n} \binom{n}{j} p_{L}^{j} (1-p_{L})^{n-j} &= \alpha \\ \sum\limits_{j=30}^{30} \binom{n}{j} p_{L}^{j} (1-p_{L})^{30-j} &= 0.05 \\ p_{L}^{30} &= 0.05 \\ p_{L} &= 0.905\end{align*}
+$$
 - Therefore a 95% confidence interval for the specificity is (90.5%, 100%]
 
