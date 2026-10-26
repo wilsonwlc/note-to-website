@@ -17,13 +17,17 @@ The value $F^{-1}(p)$ is called the 100$p$-th percentile of $X$ , where $0<p<1$
 Assume $X$ is a [[Discrete random variable|discrete random variable]]
 The 100p-th percentile of $X$ is defined as the smallest $x$ such $F(x) \geq p$
 ### Comparison
+
 ![[Quantile#Percentile vs Quantile]]
+
 ### Caution
 - The above definition works for both continuous and discrete distributions and for CDFs that are not strictly increasing
 - When $F$ is not strictly increasing, the ordinary inverse may not exist and there may be an interval of quantiles. The general definition using the infimum always selects a unique (lower) percentile / quantile
 ### Practice
-- [[25th percentile|25th percentile]]
-- [[50th percentile|50th percentile]]
-- [[75th percentile|75th percentile]]
+- [[Lower quantile|25th percentile]]
+- [[Median|50th percentile]]
+- [[Upper quantile|75th percentile]]
+
 ### Example
+
 ![[Quantile#Percentile and Quantile]]

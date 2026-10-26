@@ -21,9 +21,9 @@ The p-**quantile** of $X$ is defined as the smallest $x$ such $F(x) \geq p$
 ### Caution
 - When $F$ is not strictly increasing, the ordinary inverse may not exist and there may be an interval of quantiles. The general definition using the infimum always selects a unique (lower) percentile / quantile
 ### Practice
-- [[25th percentile|Lower quantile]]
-- [[50th percentile|Median]]
-- [[75th percentile|Upper quantile]]
+- [[Lower quantile|Lower quantile]]
+- [[Median|Median]]
+- [[Upper quantile|Upper quantile]]
 ### Example
 #### Percentile and Quantile
 | $X$    | 0      | 1      | 2      | 3      | 4      | 5      |
