@@ -19,3 +19,5 @@ It is denoted as $X \sim b(n,p)$
 - $X$ can be viewed as a sum of independent Bernoulli random variables $X=\sum\limits_{i=1}^{n}Y_{i}$, where $Y_{i} \overset{iid}{\sim} b(1, p)$
 - If $X\sim b(n,p)$, then $$P(X = k+1) = \frac{p}{1-p} \frac{n-k}{k+1} P(X = k)$$
 - If $X \sim b(n,p)$, then $P(X =k)$ first increases monotonically and then decreases monotonically, reaching its largest value when $k$ is the largest integer less than or equal to $(n+1)p$
+### Comparison
+![[Hypergeometric Distribution#Binomial distribution vs Hypergeometric distribution]]
