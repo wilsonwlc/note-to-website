@@ -22,8 +22,8 @@ $$
 f_{\mathbf{Y}}(y_{1},..., y_{n})=f_\mathbf{X}(x_{1},...,x_{n}) \times |J(x_{1},...,x_{n})|^{-1}
 $$
 ### Practice
-If it is complicated to find $J(x_{1},..., x_{n})$, then use the following formula to find it
-Assume $h_{i}$'s are the inverse transformation *i.e.* $x_{i}=h_{i}(y_{1},...,y_{n})$
+- For sum, difference, product, ratio, see [[Special case of transformation of multivariate distribution]]
+- If it is complicated to find $J(x_{1},..., x_{n})$, then use the following formula to find it. Assume $h_{i}$'s are the inverse transformation *i.e.* $x_{i}=h_{i}(y_{1},...,y_{n})$
 $$
 \begin{align*} J(x_{1}, x_{2}, \dots, x_{n})^{-1} &= \begin{vmatrix}
 \frac{\partial g_{1}}{\partial x_{1}} & \frac{\partial g_{1}}{\partial x_{2}} & \cdots & \frac{\partial g_{1}}{\partial x_{n}} \\
