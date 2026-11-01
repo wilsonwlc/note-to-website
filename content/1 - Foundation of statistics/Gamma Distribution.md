@@ -21,7 +21,7 @@ then $X \sim \Gamma(\alpha,\theta)$
 The parameter $\alpha$ is called the **shape parameter**; $\theta$ is called **scale parameter**
 ### When
 - If a random variable $T_{n}$ represents the waiting time until the $n$-th occurrence of an event according to a [[Homogeneous Poisson Process|Poisson process]] with rate $\lambda$, then $X=T_{n}$ follows a **Gamma distribution** with $\alpha=n$ and rate $\lambda$
-- Sums of independent [[Exponential Distribution|exponential random variables]]
+- Sums of independent [[Exponential distribution|exponential random variables]]
 - Right-skewed positive continuous measurements *e.g.* claim sizes, rainfall, service times. *Reason:* The support of every Gamma distribution is $(0,\infty)$. For every finite shape $\alpha>0$ the density is right-skewed (skewness: $\frac{2}{\sqrt{\alpha}}$); the skewness decreases as $\alpha$ grows and the distribution approaches normality, but it remains positive and continuous.
 - Model the hazard function of failure times in survival analysis
 ### Caution
@@ -40,4 +40,4 @@ The parameter $\alpha$ is called the **shape parameter**; $\theta$ is called **s
 - If $X_{i} \sim \text{Exp}(\lambda)$ are [[Independence of random variables|independent]], then $X_{1}+X_{2}+...+X_{n} \sim \Gamma(n, \lambda)$
 ### Comparison
 #### Exponential distribution vs Gamma distribution
-- The [[Exponential Distribution|exponential distribution]] is a special case of the Gamma distribution with $\alpha = 1$ *i.e.* $\operatorname{Gamma}(1, \lambda) \equiv \operatorname{Exponential}(\lambda)$
+- The [[Exponential distribution|exponential distribution]] is a special case of the Gamma distribution with $\alpha = 1$ *i.e.* $\operatorname{Gamma}(1, \lambda) \equiv \operatorname{Exponential}(\lambda)$
