@@ -42,7 +42,8 @@ If an random variable $X$ represents the waiting time until the first occurrence
 		$$
 		\begin{aligned} P(X > a + b) &= 1 - F(a + b) \\ &= e^{-\lambda(a + b)} \\ &= e^{-\lambda a} e^{-\lambda b} \\ &= (1 - F(a))(1 - F(b)) \\ &= P(X > a)P(X > b) \end{aligned}
 		$$
-- If $X \sim \text{Exp}(\lambda)$ and $Y=X^{\frac{1}{\alpha}}$, then $Y \sim \text{Weibull}(\alpha, \lambda)$ 
+- [[Weibull distribution]]: If $X \sim \text{Exp}(\lambda)$ and $Y=X^{\frac{1}{\alpha}}$, then $Y \sim \text{Weibull}(\alpha, \lambda)$ 
+- [[Pareto distribution]]: Assume $c>0$. If $X \sim \text{Exp}(\lambda)$, then $Y=ce^{X} \sim \text{Pareto}(c,\lambda)$ 
 ### Caution
 - "An exponential random variable can describe the random time elapsing between unpredictable events e.g. earthquakes". However, it is not accurate. *Reason:*
 	- The exponential model can be quite poor for earthquake sequences because earthquakes are not independent events at short timescales. A large earthquake can trigger aftershocks, producing many very short waiting times. This creates clustering, which violates the assumptions of a simple Poisson process
@@ -51,4 +52,4 @@ If an random variable $X$ represents the waiting time until the first occurrence
 #### Exponential distribution vs All distributions
 - Among all continuous random variable with support $(0,\infty)$, the exponential distribution is the only distribution that has the memoryless property
 
-![[Gamma Distribution#Exponential distribution vs Gamma distribution]]
+![[Gamma distribution#Exponential distribution vs Gamma distribution]]

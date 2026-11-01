@@ -38,6 +38,7 @@ The parameter $\alpha$ is called the **shape parameter**; $\theta$ is called **s
 - [[Population variance|Variance]]: $\sigma^{2} = \frac{\alpha}{\lambda^{2}}$
 - *Rescaling:* Let $X \sim \Gamma(\alpha, \lambda)$, $Y=aX$ where $a \in \mathbb{R}^{+}$. Then $Y \sim \Gamma\left(\alpha, \frac{\lambda}{a}\right)$
 - If $X_{i} \sim \text{Exp}(\lambda)$ are [[Independence of random variables|independent]], then $X_{1}+X_{2}+...+X_{n} \sim \Gamma(n, \lambda)$
+- If $X \sim \Gamma(\alpha, \lambda)$ and $Y \sim \Gamma(\beta, \lambda)$ be [[Independence of random variables|independent]], then $X+Y \sim \Gamma(\alpha+\beta, \lambda)$
 ### Comparison
 #### Exponential distribution vs Gamma distribution
 - The [[Exponential distribution|exponential distribution]] is a special case of the Gamma distribution with $\alpha = 1$ *i.e.* $\operatorname{Gamma}(1, \lambda) \equiv \operatorname{Exponential}(\lambda)$

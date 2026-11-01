@@ -21,6 +21,14 @@ $$
 	$$
 	Y\big|_{X=x} \sim N\left( \mu_{y} + \frac{\rho\sigma_{y}}{\sigma_{x}}(x - \mu_{x}), \, (1 - \rho^{2})\sigma_{y}^{2} \right)
 	$$
+- If $\begin{pmatrix} X \\ Y \end{pmatrix} \sim N \left[ \begin{pmatrix} 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 1 & \rho \\ \rho & 1 \end{pmatrix} \right]$, then 
+	$$
+	aX + bY \sim N(0, a^2 + b^2 + 2ab\rho)
+	$$
+- If $\begin{pmatrix} X \\ Y \end{pmatrix} \sim N \left[ \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix}, \begin{pmatrix} \sigma_x^2 & \rho\sigma_x\sigma_y \\ \rho\sigma_x\sigma_y & \sigma_y^2 \end{pmatrix} \right]$, then 
+	$$
+	aX + bY \sim N\left(a\mu_x + b\mu_y, a^2\sigma_x^2 + b^2\sigma_y^2 + 2ab\rho\sigma_x\sigma_y\right)
+	$$
 ### Application
 - **Linear regression** of $Y$ on $X$ - the best predictor of $Y$ given the value of $X$ is 
 $$

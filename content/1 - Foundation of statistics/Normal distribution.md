@@ -29,6 +29,7 @@ When a random variable $Z$ follows a normal distribution with $\mu=0$ and $\sigm
 - If $Z \sim N(0,1)$, then $Z^{2} \sim \Gamma(\frac{1}{2}, \frac{1}{2})$
 - If $X \sim N(\mu, \sigma^{2})$, then $P(a \le X \le b) = \Phi\left(\frac{b - \mu}{\sigma}\right) - \Phi\left(\frac{a - \mu}{\sigma}\right)$
 - If $X \sim N(0,1)$ and $Y=\Phi(X) \sim U(0,1)$
+- If $X \sim N(\mu_{x}, \sigma^{2}_{x})$ and $Y \sim N(\mu_{y}, \sigma_{y}^{2})$ are [[Independence of random variables|independent]], then $aX+bY \sim N(a\mu_{x}+b\mu_{y}, a^{2}\sigma_{x}^{2}+b^{2}\sigma_{y}^{2})$
 ### Visualisation
 - Each bell-shaped **normal curve** is symmetric and centred at its [[Population mean|mean]] $\mu$
 - **68–95–99.7 rule** or **empirical rule**

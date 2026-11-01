@@ -26,3 +26,5 @@ $$
 - *When to use it:* describe probability models. The cdf of $X$ completely specifies the random behaviour of $X$
 ### Interpretation
 - $F(x)$ is a step-function if $X$ is a discrete random variable. The step size at the point $x \in X(\Omega)$ is $p(x) = P(X=x)$
+### When
+- Determine the distribution of the transformed random variable

@@ -26,3 +26,5 @@ $$
 	$$
 	\begin{align*} M''(t) &= \int_{-\infty}^{\infty} x^{2} e^{tx} f(x) dx \\ M''(0) &= \int_{-\infty}^{\infty} x^{2} f(x) dx = E(X^{2}) \end{align*}
 	$$
+### When
+- Determine the distribution of the transformed random variable, especially when the transformation is applied to the same distribution with different parameters *e.g.* If $X \sim \text{Poisson}(\theta_{1})$ and  $Y \sim \text{Poisson}(\theta_{2})$ are independent, then $X+Y \sim \text{Poisson}(\theta_{1}+\theta_{2})$

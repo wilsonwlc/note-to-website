@@ -21,6 +21,7 @@ where $x = 0,1,2,...$
 - [[Population variance|Variance]]:$\sigma^{2} = \theta$
 - If $X\sim \text{Poisson}(\theta)$, then $P(X = i+1) = \frac{\theta}{i+1} P(X = i)$
 - [[Approximating Binomial Distribution using Poisson Distribution]]
+- If $X \sim \text{Poisson}(\theta_{1})$ and  $Y \sim \text{Poisson}(\theta_{2})$ are [[Independence of random variables|independent]], then $X+Y \sim \text{Poisson}(\theta_{1}+\theta_{2})$
 ### Interpretation
 - The constant $\lambda$ can be interpreted as the average number of occurrences per unit time interval. 
 	- *Reason:* $E(N(t)) = \lambda t \implies E\left(\frac{N(t)}{t}\right) = \lambda$

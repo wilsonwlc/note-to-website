@@ -19,6 +19,6 @@ Let an event $E$, occurring at a given time, satisfy the following conditions:
 
 If $N(t)$ represents the number of occurrences of $E$ in time interval $[0,t]$, then the counting process $\{N(t):t\geq 0\}$ is a **Poisson process** with $\lambda > 0$
 ### Application
-- [[Poisson Distribution]]
+- [[Poisson distribution]]
 - [[Exponential distribution]]
-- [[Gamma Distribution]]
+- [[Gamma distribution]]
