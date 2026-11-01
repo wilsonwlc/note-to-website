@@ -20,6 +20,7 @@ $$
 - [[Population mean|Mean]]: $\mu= E(X) = \frac{a+b}{2}$ *i.e.* midpoint of interval
 - [[Population variance|Variance]]: $\sigma^{2} = E(X^{2})-\mu^{2} = \frac{(b-a)^{2}}{12}$
 - If $X \sim U(0,1), Y=cX+d$, then 
-$$
-\begin{array}{ll} Y \sim U(d,c+d) & \text{if } c \text{ is positive} \\ Y \sim U(c+d, d) & \text{if } c \text{ is negative}  \end{array}
-$$
+	$$
+	\begin{array}{ll} Y \sim U(d,c+d) & \text{if } c \text{ is positive} \\ Y \sim U(c+d, d) & \text{if } c \text{ is negative}  \end{array}
+	$$
+- If $X \sim U(0,1)$, then $Y=\frac{-1}{\lambda} \log X \sim \text{Exp}(\lambda)$

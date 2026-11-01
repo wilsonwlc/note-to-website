@@ -1,7 +1,11 @@
 ### Concept
 - *Which:* [[Discrete random variable|Discrete random variable]]
 ### Definition
-If a random variable $X$ has [[Probability mass function (pmf)|pmf]] $$p(x) = P(X = x) = \frac{e^{-\theta} \theta^{x}}{x!}$$ where $x = 0,1,2,...$, then $X$ follows a **Poisson distribution**
+If a random variable $X$ has [[Probability mass function (pmf)|pmf]] 
+$$
+p(x) = P(X = x) = \frac{e^{-\theta} \theta^{x}}{x!}
+$$
+where $x = 0,1,2,...$, then $X$ follows a **Poisson distribution**
 It is denoted by $X \sim \text{Poisson}(\theta)$
 
 ### When

@@ -23,6 +23,7 @@ The parameter $\alpha$ is called the **shape parameter**; $\theta$ is called **s
 - If a random variable $T_{n}$ represents the waiting time until the $n$-th occurrence of an event according to a [[Homogeneous Poisson Process|Poisson process]] with rate $\lambda$, then $X=T_{n}$ follows a **Gamma distribution** with $\alpha=n$ and rate $\lambda$
 - Sums of independent [[Exponential Distribution|exponential random variables]]
 - Right-skewed positive continuous measurements *e.g.* claim sizes, rainfall, service times. *Reason:* The support of every Gamma distribution is $(0,\infty)$. For every finite shape $\alpha>0$ the density is right-skewed (skewness: $\frac{2}{\sqrt{\alpha}}$); the skewness decreases as $\alpha$ grows and the distribution approaches normality, but it remains positive and continuous.
+- Model the hazard function of failure times in survival analysis
 ### Caution
 - When $\alpha$ is non-integer, it generally does not have a direct count interpretation like “number of events”. It is the shape parameter of the Gamma distribution.
 ### Property

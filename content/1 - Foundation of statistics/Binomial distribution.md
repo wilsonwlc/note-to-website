@@ -1,7 +1,11 @@
 ### Concept
 - *Which:* [[Discrete random variable|Discrete random variable]]
 ### Definition
-If a random variable $X$ has [[Probability mass function (pmf)|pmf]] $$p(x) = P(X = x) = \binom{n}{x} p^{x}(1 - p)^{n-x}$$ where $x = 0, 1,..., n$, then $X$ follows a **Binomial distribution**
+If a random variable $X$ has [[Probability mass function (pmf)|pmf]] 
+$$
+p(x) = P(X = x) = \binom{n}{x} p^{x}(1 - p)^{n-x}
+$$
+where $x = 0, 1,..., n$, then $X$ follows a **Binomial distribution**
 It is denoted as $X \sim b(n,p)$
 ### When
 - Given $n$ independent [[Bernoulli trial|Bernoulli trials]], each with success probability $p \in[0,1]$. if a random variable $X$ counts the total number of successes across those trials, then $X\sim b(n,p)$ 

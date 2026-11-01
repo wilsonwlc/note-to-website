@@ -16,3 +16,6 @@
 - It maps outcomes $\omega \in \Omega$ to numbers *i.e.* $\omega \mapsto X(\omega)$
 ### Practice
 - Functions of random variables are random variables *e.g.* If $Z \sim N(0,1)$, then $Y=Z^{2} \sim \Gamma(\frac{1}{2}, \frac{1}{2})$ and $X=\sigma Z+ \mu \sim N(\mu, \sigma^{2})$
+### Property
+- [[Transformation of single random variable]]
+- 

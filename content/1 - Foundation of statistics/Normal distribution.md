@@ -28,6 +28,7 @@ When a random variable $Z$ follows a normal distribution with $\mu=0$ and $\sigm
 - *Transformation:* $Z=\frac{X-\mu}{\sigma}$
 - If $Z \sim N(0,1)$, then $Z^{2} \sim \Gamma(\frac{1}{2}, \frac{1}{2})$
 - If $X \sim N(\mu, \sigma^{2})$, then $P(a \le X \le b) = \Phi\left(\frac{b - \mu}{\sigma}\right) - \Phi\left(\frac{a - \mu}{\sigma}\right)$
+- If $X \sim N(0,1)$ and $Y=\Phi(X) \sim U(0,1)$
 ### Visualisation
 - Each bell-shaped **normal curve** is symmetric and centred at its [[Population mean|mean]] $\mu$
 - **68–95–99.7 rule** or **empirical rule**

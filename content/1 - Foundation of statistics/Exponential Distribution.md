@@ -1,15 +1,31 @@
 ### Concept
 - *Which:* [[Continuous random variable|Continuous random variable]]
 ### Definition
+#### Rate parameterisation
 If a random variable $X$ has [[Probability density function (pdf)|pdf]] 
 $$
-f(x)=\lambda e^{-\lambda x}
+f_X(x)=
+\begin{cases}  
+\lambda e^{-\lambda x} & \text{if} \quad x \geq 0 \\  
+0 & \text{otherwise}
+\end{cases}
 $$
-for $x > 0$, then $X$ follows **Exponential distribution**
+where $\lambda > 0$ is the **rate parameter**, then $X$ follows an **Exponential distribution**
 It is denoted as $X \sim \text{Exponential}(\lambda)$ or $X \sim \text{Exp}(\lambda)$
+#### Scale parameterisation
+$$
+f_{X}(x)=  
+\begin{cases}  
+\frac{1}{\theta}e^{\frac{-x}{\theta}} & \text{if} \quad x \geq 0 \\  
+0 & \text{otherwise}  
+\end{cases}
+$$
+where $\theta > 0$ is the **scale parameter**
+It is denoted as $X \sim \text{Exp}(\theta)$
 ### When
 If an random variable $X$ represents the waiting time until the first occurrence in a [[Homogeneous Poisson Process|Poisson process]] with rate $\lambda$, then $X \sim \text{Exp}(\lambda)$
 ### Property
+- *Rate and scale parameter:* $\theta=\frac{1}{\lambda}$
 - [[Cumulative distribution function (cdf)|cdf]]: $$F(x) = \begin{cases} 1 - e^{-\lambda x} & , x > 0 \\ 0 & , x \le 0 \end{cases}$$
 	- *Proof:* 
 		- For $x \leq 0$, $F(x)=P(X \leq x)=0$
@@ -26,6 +42,7 @@ If an random variable $X$ represents the waiting time until the first occurrence
 		$$
 		\begin{aligned} P(X > a + b) &= 1 - F(a + b) \\ &= e^{-\lambda(a + b)} \\ &= e^{-\lambda a} e^{-\lambda b} \\ &= (1 - F(a))(1 - F(b)) \\ &= P(X > a)P(X > b) \end{aligned}
 		$$
+- If $X \sim \text{Exp}(\lambda)$ and $Y=X^{\frac{1}{\alpha}}$, then $Y \sim \text{Weibull}(\alpha, \lambda)$ 
 ### Caution
 - "An exponential random variable can describe the random time elapsing between unpredictable events e.g. earthquakes". However, it is not accurate. *Reason:*
 	- The exponential model can be quite poor for earthquake sequences because earthquakes are not independent events at short timescales. A large earthquake can trigger aftershocks, producing many very short waiting times. This creates clustering, which violates the assumptions of a simple Poisson process
