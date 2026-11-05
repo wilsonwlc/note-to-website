@@ -34,3 +34,7 @@ $\forall x_{1},x_{2}...,x_{n},$
 $$
 F_{X_{1},...,X_{n}}(x_{1}, x_{2}, \dots, x_{n}) = F_{X_{1}}(x_{1}) F_{X_{2}}(x_{2}) \cdots F_{X_{n}}(x_{n})
 $$
+### Corollary 
+- The two [[Random sample|random samples]] $\{X_{1},...,X_{n_{1}}\}$ and $\{Y_{1},..., Y_{n_{2}}\}$ are independent. This means that:
+	- The entire collection $\{X_i\}$ is independent of the entire collection $\{Y_j\}$ 
+	- $f(\mathbf{x}, \mathbf{y}) = f_{X}(\mathbf{x}) f_{Y} (\mathbf{y})$ for the random vectors $\mathbf{x}=(X_{1},...,X_{n_{1}})$ and $\mathbf{y}=(Y_{1},...,Y_{n_{2}})$

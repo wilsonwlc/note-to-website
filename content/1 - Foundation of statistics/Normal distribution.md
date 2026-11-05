@@ -26,10 +26,16 @@ When a random variable $Z$ follows a normal distribution with $\mu=0$ and $\sigm
 	- *Reason:* Normal distribution is symmetric about its mean 
 - If $X \sim N(\mu, \sigma^{2})$, then $aX + b \sim N\left(a\mu + b, a^{2}\sigma^{2}\right)$
 - *Transformation:* $Z=\frac{X-\mu}{\sigma}$
-- If $Z \sim N(0,1)$, then $Z^{2} \sim \Gamma(\frac{1}{2}, \frac{1}{2})$
+- [[Gamma distribution|Gamma distribution]]: If $Z \sim N(0,1)$, then $Z^{2} \sim \Gamma(\frac{1}{2}, \frac{1}{2})$
 - If $X \sim N(\mu, \sigma^{2})$, then $P(a \le X \le b) = \Phi\left(\frac{b - \mu}{\sigma}\right) - \Phi\left(\frac{a - \mu}{\sigma}\right)$
-- If $X \sim N(0,1)$ and $Y=\Phi(X) \sim U(0,1)$
+- [[Uniform Distribution|Uniform distribution]]: If $X \sim N(0,1)$ and $Y=\Phi(X) \sim U(0,1)$
 - If $X \sim N(\mu_{x}, \sigma^{2}_{x})$ and $Y \sim N(\mu_{y}, \sigma_{y}^{2})$ are [[Independence of random variables|independent]], then $aX+bY \sim N(a\mu_{x}+b\mu_{y}, a^{2}\sigma_{x}^{2}+b^{2}\sigma_{y}^{2})$
+- [[Gamma distribution|Gamma distribution]] and [[Chi-square distribution|chi square distribution]]: If $X \sim N(0,1)$, then $X^{2} \sim \Gamma\left(\frac{1}{2},\frac{1}{2}\right)\equiv \chi_{1}^{2}$ 
+- If $X_{1},...,X_{n} \stackrel{iid}{\sim} N(\mu, \sigma^{2})$, then $\sum\limits_{i=1}^{n} \left(\frac{X_{i}-\mu}{\sigma}\right)^{2} \sim \chi_{n}^{2}$
+	- *Proof:* 
+		- $\left(\frac{X_{i}-\mu}{\sigma}\right)^{2} \sim \chi_{1}^{2} \equiv \Gamma\left(\frac{1}{2},\frac{1}{2}\right)$
+		- Recall the property of gamma distribution: If $X \sim \Gamma(\alpha, \lambda)$ and $Y \sim \Gamma(\beta, \lambda)$ be independent, then $X+Y \sim \Gamma(\alpha+\beta, \lambda)$
+		- $\sum\limits_{i=1}^{n} \left(\frac{X_{i}-\mu}{\sigma}\right)^{2} \sim \Gamma\left(\frac{n}{2},\frac{1}{2}\right)\equiv \chi_{n}^{2}$
 ### Visualisation
 - Each bell-shaped **normal curve** is symmetric and centred at its [[Population mean|mean]] $\mu$
 - **68–95–99.7 rule** or **empirical rule**
@@ -43,3 +49,5 @@ When a random variable $Z$ follows a normal distribution with $\mu=0$ and $\sigm
 - The places where the normal curve is steepest are a standard deviation below and above the mean *i.e.* $\mu - \sigma$ and $\mu + \sigma$
 ### When
 - Symmetric measurement around a typical value
+### Comparison
+![[t-distribution#t-distribution vs normal distribution]]

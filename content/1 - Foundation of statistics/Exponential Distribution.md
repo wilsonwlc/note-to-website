@@ -44,6 +44,7 @@ If an random variable $X$ represents the waiting time until the first occurrence
 		$$
 - [[Weibull distribution]]: If $X \sim \text{Exp}(\lambda)$ and $Y=X^{\frac{1}{\alpha}}$, then $Y \sim \text{Weibull}(\alpha, \lambda)$ 
 - [[Pareto distribution]]: Assume $c>0$. If $X \sim \text{Exp}(\lambda)$, then $Y=ce^{X} \sim \text{Pareto}(c,\lambda)$ 
+- [[Sample mean|Sample mean]]: If $X_{i} \stackrel{iid}{\sim} \text{Exp}(\lambda)$, then $\overline{X}= \frac{1}{n} \sum\limits_{i=1}^{n}X_{i} \sim \Gamma(n,n\lambda)$
 ### Caution
 - "An exponential random variable can describe the random time elapsing between unpredictable events e.g. earthquakes". However, it is not accurate. *Reason:*
 	- The exponential model can be quite poor for earthquake sequences because earthquakes are not independent events at short timescales. A large earthquake can trigger aftershocks, producing many very short waiting times. This creates clustering, which violates the assumptions of a simple Poisson process
