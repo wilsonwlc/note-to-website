@@ -28,7 +28,7 @@ The parameter $\alpha$ is called the **shape parameter**; $\theta$ is called **s
 - When $\alpha$ is non-integer, it generally does not have a direct count interpretation like “number of events”. It is the shape parameter of the Gamma distribution.
 ### Property
 - $\theta=\frac{1}{\lambda}$
-- **cdf**: $$ F(x) =  \begin{cases} 1 - \sum\limits_{k=0}^{n-1} \frac{(\lambda x)^{k} e^{-\lambda x}}{k!}, \quad x > 0 \text{ and } \alpha = n \\ \int_{0}^{x} \frac{\lambda^{\alpha}}{\Gamma(\alpha)} t^{\alpha - 1} e^{-\lambda t} \, dt, \quad x > 0 \end{cases}$$
+- [[Cumulative distribution function (cdf)|cdf]]: $$ F(x) =  \begin{cases} 1 - \sum\limits_{k=0}^{n-1} \frac{(\lambda x)^{k} e^{-\lambda x}}{k!}, \quad x > 0 \text{ and } \alpha = n \\ \int_{0}^{x} \frac{\lambda^{\alpha}}{\Gamma(\alpha)} t^{\alpha - 1} e^{-\lambda t} \, dt, \quad x > 0 \end{cases}$$
 	- *Proof:* Case 1: $\alpha$ is an integer 
 		$$
 		\begin{aligned} F(t) &= P(T_{n} \le t) \\ &= 1 - P(T_{n} > t) \\ &= 1-P(\text{waiting time till n-th occurrence}>t) \\ &= 1-P(\text{n-1 occurrences in [0,t]}) \\ &= 1 - P(N(t) < n) \\ &= 1 - \sum_{k=0}^{n-1} \frac{(\lambda t)^{k} e^{-\lambda t}}{k!}, \quad t > 0 \end{aligned}
