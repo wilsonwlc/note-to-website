@@ -1,3 +1,17 @@
+### Definition
+$$
+\text{bias}(\hat{\theta}) = \mathrm{E}(\hat{\theta}) - \theta
+$$
+- $\text{E}(\hat{\theta})$: the [[Expectation|expected value]] of the [[Point estimation|estimator]]
+- $\hat{\theta}$ is an estimator of the parameter $\theta$
+- It is the **estimator bias**
+### Caution
+- The expectation is taken with respect to the [[Sampling distribution|sampling distribution]] of $\hat{\theta}$ 
+### Interpretation 
+- If $\text{bias}(\hat{\theta}) > 0$, $\hat{\theta}$ overestimates $\theta$
+- If $\text{bias}(\hat{\theta}) < 0$, $\hat{\theta}$ underestimates $\theta$
+- If $\text{bias}(\hat{\theta}) = 0$ for any $\theta$, $\hat{\theta}$ is **unbiased** *i.e.* If $E(\hat{\theta})=\theta$ for all the values of $\theta$ in the parameter space, then the estimator $\hat{\theta}$ is called **unbiased estimator** of the parameter of $\theta$
+
 ### Source
 #### Selection bias
 - *When it happens:* the selection of subjects for a study is affected by variables which are associated with the outcome
