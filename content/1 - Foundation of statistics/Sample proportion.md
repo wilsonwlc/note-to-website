@@ -17,5 +17,8 @@ $$
 - [[Population mean|Mean]]: $\text{E}(\hat{p})=p$
 - [[Population variance|Variance]]: $\text{Var}(\hat{p})=\frac{p(1-p)}{n}$
 - [[Standard error|Estimated standard error]]: $\widehat{\operatorname{se}}(\hat{p}) = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}$
+- [[Confidence interval (CI)|Confidence interval]]: 
+	- [[CI - 1 population proportion]]
+	- [[CI - Comparison of 2 population proportions]]
 ### Practice
 - For large $n$, $\hat{p}$ is approximately [[Normal distribution|normal]] $\hat{p} \approx N\left(p, \frac{p(1−p)}{n}\right)$. See [[Approximation to Binomial using Normal]]

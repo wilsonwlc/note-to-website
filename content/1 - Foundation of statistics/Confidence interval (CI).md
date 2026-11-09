@@ -48,4 +48,4 @@ The quantity $1-\alpha$ is called the **confidence level** associated with the c
 - [[CI - Comparison of 2 population means|CI - Comparison of 2 population means]]
 - [[CI - Comparison of 2 population variances|CI - Comparison of 2 population variances]]
 - [[CI - 1 population proportion|CI - 1 population proportion]]
-- [[CI - 2 population proportions|CI - 2 population proportions]]
+- [[CI - Comparison of 2 population proportions|CI - Comparison of 2 population proportions]]
