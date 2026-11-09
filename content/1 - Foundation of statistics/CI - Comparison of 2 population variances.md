@@ -1,0 +1,5 @@
+### Formula
+- By [[Sampling distributions from normal random sample|Sampling distributions from normal random sample]], the [[Confidence interval (CI)#Step|pivot variable]] is $F = \frac{\frac{S_{x}^{2}}{S_{y}^{2}}}{\frac{\sigma_{x}^{2}}{\sigma_{y}^{2}}} \sim F(m-1,n-1)$
+- For all parameter values, $P\left(F_{1-\frac{\alpha}{2}, m-1, n-1} \le F = \frac{\frac{S_{x}^{2}}{S_{y}^{2}}}{\frac{\sigma_{x}^{2}}{\sigma_{y}^{2}}} \le F_{\frac{\alpha}{2}, m-1, n-1}\right) = 1 - \alpha$
+- The $100(1-\alpha)\%$ [[Confidence interval (CI)|CI]] for $\frac{\sigma^{2}_{x}}{\sigma^{2}_{y}}$ is $$\left[\frac{1}{F_{\frac{\alpha}{2}, m-1, n-1}} \frac{S_{x}^{2}}{S_{y}^{2}}, \frac{1}{F_{1-\frac{\alpha}{2}, m-1, n-1}} \frac{S_{x}^{2}}{S_{y}^{2}}\right]$$
+- Or, by the property of [[F-distribution|F-distribution]], $$\left[\frac{1}{F_{\frac{\alpha}{2}, m-1, n-1}} \frac{S_{x}^{2}}{S_{y}^{2}}, \frac{1}{F_{1-\frac{\alpha}{2}, m-1, n-1}} \frac{S_{x}^{2}}{S_{y}^{2}}\right]$$

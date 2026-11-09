@@ -17,8 +17,8 @@ $$
 ### Extension
 - **Lindeberg-Feller Theorem**
 ### Application
-- [[Approximation to Binomial from Normal|Approximation to Binomial from Normal]]
-- [[Approximation to Poisson from Normal|Approximation to Poisson from Normal]]
+- [[Approximation to Binomial using Normal|Approximation to Binomial using Normal]]
+- [[Approximation to Poisson using Normal|Approximation to Poisson using Normal]]
 ### Practice
 - There is no single magical sample size that guarantees satisfactory normal approximation
 	- If a population is fairly symmetrical, small sample sizes usually suffice. *Reason:* Using [[Edgeworth expansion|Edgeworth expansion]] to construct higher order error terms, $$|F_{n}(x) - \Phi(x)| = \phi(x) \left( \frac{\gamma(x^{2} - 1)}{6\sqrt{n}} + \frac{(\tau - 3)(x^{3} - 3x)}{24n} + \frac{\gamma^{2}(x^{5} - 10x^{3} + 15x)}{72n} + \dots \right)$$where $F_{n}(x)$ is [[Cumulative distribution function (cdf)|cdf]] of $\frac{\sqrt{n}(\overline{X} - \mu)}{\sigma}$, $\gamma = \frac{E((X - \mu)^{3})}{\sigma^{3}}$ is the **skewness**, $\tau = \frac{E((X - \mu)^{4})}{\sigma^{4}}$is the **kurtosis**, the first and second order error terms would vanish if $\gamma = 0$ and $\tau =3$. This mean underlying distribution is symmetric and has peakedness close to the normal distribution. The error term have order $O(n^{\frac{-3}{2}})$

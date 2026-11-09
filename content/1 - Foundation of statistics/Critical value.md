@@ -15,4 +15,4 @@
 	- $\chi_{0.05,24}^{2}$ is the 95th percentile of a $\chi_{24}^{2}$ ($\approx 36.42$)
 	- $\chi_{0.95, 24}^{2}$ is the 5th percentile of a $\chi_{24}^{2}$ ($\approx 13.85$)
 - For one-sided test, the $100(1 - \alpha)$th percentile of the [[t-distribution|t-distribution]] with degree of freedom $r$, $t_{r}$ is denoted as $t_{\alpha,r}$. For two-sided test at level $\alpha$, the critical values are  $\pm t_{\frac{\alpha}{2}, r}$
-- The $100(1 - \alpha)$th percentile of the [[F-distribution|F distribution]] with numerator degree of freedom $r_{1}$  and denominator degree of freedom $r_{2}$, $F(r_{1},r_{2})$ is denoted as $F_{\alpha, r_{1}, r_{2}}$  
+- The $100(1 - \alpha)$th percentile of the [[1 - Foundation of statistics/F-distribution|F distribution]] with numerator degree of freedom $r_{1}$  and denominator degree of freedom $r_{2}$, $F(r_{1},r_{2})$ is denoted as $F_{\alpha, r_{1}, r_{2}}$  

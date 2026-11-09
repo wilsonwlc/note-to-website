@@ -44,8 +44,8 @@ The quantity $1-\alpha$ is called the **confidence level** associated with the c
 		- Upper confidence bound only: $P(V(\mathbf{X}, \theta) \le c_{2}) = 1 - \alpha$
 	- *Example:* $\left[ 0, \frac{\chi_{2n, \alpha}^{2}}{2n\overline{X}} \right]$
 ### Example
-- [[CI - 1 population mean]]
-- CI - Comparison of 2 population means
-- CI - Comparison of 2 population variances
-- CI - 1 population proportion
-- CI - 2 population proportions
+- [[CI - 1 population mean|CI - 1 population mean]]
+- [[CI - Comparison of 2 population means|CI - Comparison of 2 population means]]
+- [[CI - Comparison of 2 population variances|CI - Comparison of 2 population variances]]
+- [[CI - 1 population proportion|CI - 1 population proportion]]
+- [[CI - 2 population proportions|CI - 2 population proportions]]

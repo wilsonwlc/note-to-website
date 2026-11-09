@@ -1,5 +1,5 @@
 ### Concept
-- *What it does:* give the [[Critical value|critical value]] under an [[F-distribution|F-distribution]] curve according to a given right tail area
+- *What it does:* give the [[Critical value|critical value]] under an [[1 - Foundation of statistics/F-distribution|F-distribution]] curve according to a given right tail area
 - *How to read it:* 
 	- Usually printed as a series of two-way arrays (one for each significance level, *e.g.* $\alpha=0.05, 0.01, 0.001$)
 	- Rows: denominator degrees of freedom, $r_2​$
