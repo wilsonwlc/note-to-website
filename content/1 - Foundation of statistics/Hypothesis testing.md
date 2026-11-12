@@ -22,3 +22,41 @@
 - Decision rule: Reject $H_0$ and accept $H_{1}$ if $\overline{X}<x_{0}$ for some fixed number $x_{0}$
 	- Test statistic: sample statistic $\overline{X}$
 	- In fact, $x_0$ is chosen so that the Type I error probability equals the desired significance level
+### Step
+1. Identify a statistical model
+2. Formulate the [[Hypothesis|null hypothesis]] $H_0$ and alternative hypothesis $H_{1}$
+3. Specify the [[Size and significance level|significance level]] $\alpha$, which is the maximum probability that we allow to make the type I error
+4. Choose a test statistic $T$ with known distribution under $H_{0}$
+5. Based on the null distribution of $T$, derive the [[Size and significance level|size]] of the test
+6. Find the rejection region by setting the size to be less than or equal to the significance level $\alpha$
+7. Compute the value of $T$ based on the observed data
+8. If $T$ falls in the rejection region, reject $H_0$ at significance level $\alpha$; otherwise do not reject $H_0$
+### Example
+- Standard medicine: cure rate $p_0 = 0.6$
+- New medicine: believed cure rate $p > 0.6$
+- Data: Out of 50 patients taken new medicine, 42 patients are cured
+- Is the new medicine better?
+- Step
+	1. Statistical model: 
+		- Let $X$ = number of patients cured out of 50
+		- $X \sim b(50,p)$
+	2. $H_0 : p \le 0.6$ vs $H_1 : p > 0.6$
+	3. Require $\alpha=0.05$ *i.e.* allow no more than 5% chance to falsely rejecting $H_0$
+	4. Choose the sample proportion $\hat{p} = \frac{X}{n}$ as the test statistic. Using [[Central Limit Theorem (CLT)|normal approximation]], 
+	$$
+	\frac{\hat{p} - p}{\sqrt{\frac{p(1 - p)}{50}}} \stackrel{a}{\sim} N(0, 1)
+	$$
+	5. The size of the test is 
+	$$
+	\begin{align*} \text{size} &= \sup_{\theta \in \Theta_{0}} K(\theta) \\ &= \sup_{\theta \in \Theta_0} P(\text{Reject} \; H_{0} \mid \theta) \\ &= \sup_{p \le 0.6} P(\hat{p}>c|p) \\ &= \sup_{p \le 0.6} P\left(\frac{\hat{p} - p}{\sqrt{\frac{p(1 - p)}{50}}} > \frac{c - p}{\sqrt{\frac{p(1 - p)}{50}}} \right) \\ &= \sup_{p \le 0.6}\left[ 1 - \Phi \left( \frac{c - p}{\sqrt{\frac{p(1 - p)}{50}}} \right) \right] \\ &= 1 - \Phi\left( \frac{c - 0.6}{\sqrt{\frac{(0.6)(0.4)}{50}}} \right) \\ &= 1 - \Phi\left( \frac{c - 0.6}{0.0693} \right) \end{align*}
+	$$
+	6. Set the size to the significance level $\alpha=0.05$, we have 
+	$$
+	\begin{align*} 0.05 &= 1 - \Phi\left(\frac{c - 0.6}{0.0693}\right) \\ \frac{c - 0.6}{0.0693} &= 1.645 \\ c &= 0.7140 \end{align*}
+	$$
+	7. The rejection region is given by $\hat{p} > 0.7140$ *i.e.* $X > 35.7$. Since $X$ must be integer, we will reject $H_{0}$ if $X \geq 36$. *Caution:* The size of the test would be less than 0.05
+	8. The value of the test statistics $X=42>36$
+	9. We reject $H_{0}$ at 5% significance level *i.e.* the clinical trial data strongly suggests that the new medicine performs better than the standard medicine
+### Application
+- Hypothesis testing - 1 normal sample with known variance
+- Hypothesis testing - 1 normal sample with unknown variance
