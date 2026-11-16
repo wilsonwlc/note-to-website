@@ -38,4 +38,4 @@ summary(m_condLR)
 ```
 - [[Conditional logistic regression model|Conditional logistic regression model]] was fitted
 ### Output
-![[Example of conditional logistic regression model - output.png]]
+![[Example of conditional logistic regression model - output.png|490]]
