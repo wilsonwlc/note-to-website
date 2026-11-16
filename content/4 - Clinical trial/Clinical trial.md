@@ -6,7 +6,7 @@
 		- *Why we need precise eligibility criteria:*
 			- Improve external validity *i.e.* enhance the extent to which the trial results can be generalised to the target population
 			- Ensure patient safety. *Reason:* some patients may be at higher risk of adverse effects from the treatment being studied *e.g.* pregnant women if the drug may harm the foetus
-			- Improve internal validity *i.e.* ensure the observed treatment effect can be attributed to the treatment rather than to other factors such as [[Bias|bias]] and [[Confounding factor|confounding]]
+			- Improve internal validity *i.e.* ensure the observed treatment effect can be attributed to the treatment rather than to other factors such as [[Bias|bias]] and [[4 - Clinical trial/Confounding factor|confounding]]
 		- *How should we define precise eligibility criteria:* consider
 			- Source of patient recruitment *e.g.* only in-patients recruited from hospitals for a study of depression may form an atypical patient population
 			- Disease state under investigation *e.g.* some disease conditions may vary considerably in severity or diagnostic definition, which can complicate patient selection

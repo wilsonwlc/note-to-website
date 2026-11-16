@@ -23,4 +23,4 @@ $$
 - Can use Hosmer-Lemeshow statistic for Goodness-of-Fit
 - Can use likelihood ratio tests to compare nested models and conduct hypothesis tests for parameter estimates
 ### Example
-- [[Example of Conditional logistic regression model|Example of Conditional logistic regression model]]
+- [[Example of conditional logistic regression model|Example of Conditional logistic regression model]]
