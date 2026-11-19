@@ -5,8 +5,8 @@
 	- Design stage:
 		- **Restriction** - restrict study eligibility to participants with a particular level or category of a potential confounder *e.g.* including only non-smokers. 
 			- *Cons:* Reduces sample size and statistical power, and may limit generalisability
-		- **Matching** - match exposed and unexposed subjects on the confounder in the design stage. 
-			- *Caution:* In the analysis, use methods appropriate for matched data *e.g.* **conditional logistic regression**
+		- Matching - match exposed and unexposed subjects on the confounder in the design stage. 
+			- *Caution:* In the analysis, use methods appropriate for matched data *e.g.* [[Conditional logistic regression model|conditional logistic regression]]
 	- Analysis stage: 
 		- **Multivariable regression modelling** - include the confounder(s) as covariates in a regression model. 
 			- *Caution:* Care is needed with model specification, collinearity, measurement error and the appropriate selection of adjustment variables

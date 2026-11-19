@@ -1,6 +1,6 @@
 ### Concept
-- *Which:* a special case of case-control study
-- *Why we need it:* control for confounding and bias to increase precision
+- *Which:* a special case of [[Case-Control study|case-control study]]
+- *Why we need it:* control for [[Confounding factor|confounding]] and bias to increase precision
 - *What is matching:* pairing or grouping subjects based on pre-specified characteristics. It is a form of stratification
 - *When it takes place:* implemented in the design stage
 - *What is matched case-control study:* each person with disease who is included in the study as a case is matched with one or more disease free people (the controls). 

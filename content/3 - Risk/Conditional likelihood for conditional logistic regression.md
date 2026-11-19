@@ -46,6 +46,7 @@ L_{k} &= \frac{\frac{P(Y = 1 \mid \mathbf{X}_{0k}) P(\mathbf{X}_{0k})}{P(Y = 1)}
 &= \frac{P(Y = 1 \mid \mathbf{X}_{0k}) \prod_{i=1}^{M} P\left(Y = 0 \mid \mathbf{X}_{ik}\right)}{\sum_{i=0}^{M} P\left(Y = 1 \mid \mathbf{X}_{ik}\right) \prod_{r \neq i} P\left(Y = 0 \mid \mathbf{X}_{rk}\right)}
 \end{align*}
 $$
+- $\frac{\prod_{i=0}^{M} P(\mathbf{X}_{ik})}{P(Y = 1) P(Y = 0)^{M}}$ was cancelled
 - By a logistic model for disease in the $i$-th person in the $k$-th stratum, we have  
 $$
 \begin{align*}
@@ -55,7 +56,24 @@ P(Y = 1 \mid \mathbf{X}_{ik}) &= \frac{e^{\alpha_{k} + \mathbf{X}_{ik}^{T} \bold
 P(Y = 0 \mid \mathbf{X}_{ik}) &= \frac{1}{1 + e^{\alpha_{k} + \mathbf{X}_{ik}^{T} \boldsymbol{\beta}}}
 \end{align*}
 $$
- - The conditional likelihood for the $k$-th stratum/matched set  
+ - The numerator of $L_{k}$ is 
+$$
+\begin{align*}
+&\hspace{0.7cm} P(Y = 1 \mid \mathbf{X}_{0k}) \prod_{i=1}^{M} P\left(Y = 0 \mid \mathbf{X}_{ik}\right) \\
+&= \frac{e^{\alpha_{k} + \mathbf{X}_{0k}^{\top} \boldsymbol{\beta}}}{1 + e^{\alpha_{k} + \mathbf{X}_{0k}^{\top} \boldsymbol{\beta}}} \cdot \prod_{i=1}^{M} \frac{1}{1 + e^{\alpha_{k} + \mathbf{X}_{ik}^{\top} \boldsymbol{\beta}}}\\
+&= \frac{e^{\alpha_{k} + \mathbf{X}_{0k}^{\top} \boldsymbol{\beta}}}{\prod_{j=0}^{M} \left(1 + e^{\alpha_{k} + \mathbf{X}_{jk}^{\top} \boldsymbol{\beta}}\right)}
+\end{align*}
+$$
+- The denominator of $L_{k}$ is 
+$$
+\begin{align*}
+&\hspace{0.7cm} \sum_{i=0}^{M} P\left(Y = 1 \mid \mathbf{X}_{ik}\right) \prod_{r \neq i} P\left(Y = 0 \mid \mathbf{X}_{rk}\right) \\
+&= \sum_{i=0}^{M} \frac{e^{\alpha_{k} + \mathbf{X}_{ik}^{\top} \boldsymbol{\beta}}}{1 + e^{\alpha_{k} + \mathbf{X}_{ik}^{\top} \boldsymbol{\beta}}} \cdot \prod_{r \neq i} \frac{1}{1 + e^{\alpha_{k} + \mathbf{X}_{rk}^{\top} \boldsymbol{\beta}}} \\
+&= \sum_{i=0}^{M} \frac{e^{\alpha_{k} + \mathbf{X}_{ik}^{\top} \boldsymbol{\beta}}}{\prod_{j=0}^{M} \left(1 + e^{\alpha_{k} + \mathbf{X}_{jk}^{\top} \boldsymbol{\beta}}\right)} \\
+&= \frac{\sum_{i=0}^{M} e^{\alpha_{k} + \mathbf{X}_{ik}^{\top} \boldsymbol{\beta}}}{\prod_{j=0}^{M} \left(1 + e^{\alpha_{k} + \mathbf{X}_{jk}^{\top} \boldsymbol{\beta}}\right)}
+\end{align*}
+$$
+ - Hence, the conditional likelihood for the $k$-th stratum/matched set  
  $$
 \begin{align*}
 L_{k}(\boldsymbol{\beta}) &= \frac{e^{\alpha_{k} + \mathbf{X}_{0k}^{T} \boldsymbol{\beta}}}{\sum_{i=0}^{M} e^{\alpha_{k} + \mathbf{X}_{ik}^{T} \boldsymbol{\beta}}} \\ 
