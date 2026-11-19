@@ -1,12 +1,10 @@
 ### Concept
-- *What is it:* a study that classifies participants according to exposure status and compares the subsequent occurrence of outcomes between exposure groups
-- *How to measure it:*  risk, relative risk
+- *What is it:* a study that identifies participants according to their exposure status and compares the occurrence of subsequent outcomes between exposed and unexposed groups
+- *How to measure it:*  risk, relative risk, risk difference
 - *Type:*
 	- [[Prospective cohort study|Prospective cohort study]]
 	- [[Retrospective cohort study|Retrospective cohort study]]
-- *Caution:* 
-	- Prospective and retrospective are general descriptors, whereas prospective cohort study and retrospective cohort study are specific study designs
-	- Prospective and retrospective describe the timing of data collection relative to the occurrence of outcomes
-	- A **prospective study** collects outcome data after the study begins. Participants are followed forward in time
-	- A **retrospective study** uses data that already existed when the study began. Both exposure and outcome information are obtained from past records
+	- [[Ambidirectional cohort study|Ambidirectional cohort study]]
 - *When to use it:* particularly useful for studying rare exposures
+### Comparison
+![[Case-Control study#Case-control study vs Cohort study]]

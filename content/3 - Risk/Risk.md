@@ -1,11 +1,11 @@
 ### Concept
-- *What is it:* the probability that an individual will develop a certain disease in a given time period
+- *What is it:* the probability that an individual who is initially free of a particular disease will develop that disease over a specified period of time
 ### Type
 - Risk of an exposed individual 
 $$
-\mathrm{Pr}(Disease+|Exposure+)
+R_{E} = \mathrm{Pr}(Disease+|Exposure+)
 $$
 - Risk of a non-exposed individual 
 $$
-\mathrm{Pr}(Disease+|Exposure-)
+R_{U} = \mathrm{Pr}(Disease+|Exposure-)
 $$

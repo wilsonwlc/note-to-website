@@ -1,16 +1,22 @@
 ### Concept
-- *What is it:* a study that first selects participants according to outcome (disease) status and then compares their previous exposure histories
-	- **Case:** Have disease
-	- **Control:** Do not have disease 
-- *How to measure it:* [[Odds ratio|odds ratio]]
-- *Example:* Start with people who have lung cancer and people who do not. Then, determine whether they were previously exposed to asbestos.
+- *What is it:* a study that selects participants according to outcome (disease) status and then compares their previous exposure histories
+	- **Case:** Has the disease
+	- **Control:** Does not have the disease
+	- They are drawn from the same source population
+- *Measure of association:* [[Odds ratio|Odds ratio]]
+- *Example:* Select people with lung cancer and people without lung cancer, then ascertain prior asbestos exposure
 - *Pros:* 
 	- Relatively inexpensive and quick
-	- Can evaluate multiple exposures
+	- Efficient for studying multiple exposures
 - *Cons:*
-	- Cannot directly estimate risk because the numbers of cases and controls are determined by the investigator rather than reflecting the true population frequencies
+	- Cannot directly estimate absolute risk (or incidence rates) because the numbers of cases and controls are fixed by design rather than reflecting population frequencies
 	- Susceptible to recall bias
+- *When to use it:* Particularly useful for 
+	- Rare diseases
+	- Outcomes with long latency periods
 - *Caution:* 
-	- Case-control studies begin with outcome status, whereas cohort studies begin with exposure status
 	- Exposure information is usually obtained retrospectively
-- *When to use it:* particularly useful for studying rare diseases
+### Comparison
+#### Case-control study vs Cohort study
+- [[Case-Control study|Case-control studies]] begin with outcome status
+- [[Cohort study|Cohort studies]] begin with exposure status

@@ -1,3 +1,21 @@
 ### Concept
-- *What is it:* a variable which is related both to group membership *e.g.* risk factor and to the outcome of interest *e.g.* occurrence of disease.
-- *Why it is important:* Its presence makes it hard to establish the outcome as being a direct consequence of group membership *i.e.* It leads to **Simpson's paradox**
+- *What is it:* a variable that is associated with the exposure, independently associated with the outcome, and is not an intermediate variable on the causal pathway between exposure and outcome 
+- *Why it is important:* Its presence distorts the apparent relationship between exposure and outcome, making it difficult to determine whether the observed association is causal. In extreme cases this distortion can reverse the direction of the association *i.e.* [[Simpson’s paradox|Simpson’s paradox]]
+- *How to address confounding:*
+	- Design stage:
+		- **Restriction** - restrict study eligibility to participants with a particular level or category of a potential confounder *e.g.* including only non-smokers. 
+			- *Cons:* Reduces sample size and statistical power, and may limit generalisability
+		- **Matching** - match exposed and unexposed subjects on the confounder in the design stage. 
+			- *Caution:* In the analysis, use methods appropriate for matched data *e.g.* **conditional logistic regression**
+	- Analysis stage: 
+		- **Multivariable regression modelling** - include the confounder(s) as covariates in a regression model. 
+			- *Caution:* Care is needed with model specification, collinearity, measurement error and the appropriate selection of adjustment variables
+		- **Propensity score (PS) method** - estimate the probability of receiving the exposure (or treatment) given observed baseline covariates, then use the propensity score for
+			- Matching
+			- Stratification
+			- Weighting (inverse probability of treatment weighting, IPTW) 
+			- Covariate adjustment (including the propensity score itself, or its categories, as a covariate)
+			- *When to use it:* multiple observed confounders need to be controlled
+### Type
+- **Unmeasured confounding**: a confounder was not measured or collected in the study
+- **Residual confounding**: confounding remains despite adjustment, for example because a confounder was measured imprecisely or modelled inadequately
