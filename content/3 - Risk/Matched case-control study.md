@@ -2,8 +2,8 @@
 - *Which:* a special case of [[Case-Control study|case-control study]]
 - *What is matching:* pairing or grouping subjects based on pre-specified characteristics. It is a form of stratification
 	- Each pairing is called a **matched set**
-	- The characteristics used to pair are called **matching factors** or **matching variables
-- *Why we need it:* control for [[Confounding factor|confounding]] and bias to increase precision
+	- The characteristics used to pair are called **matching factors** or **matching variables**
+- *Why we need it:* control for [[Confounding factor|confounding]] to increase precision or **efficiency**
 	- *Caution:* 
 		- Matching does not automatically eliminate confounding. It may introduction selection bias
 		- It improves the precision for the association. It is guaranteed and can be offset by the **over-matching**
@@ -11,7 +11,7 @@
 	- *Why it happens:* matched sets become exposure-concordant and uninformative
 	- *Consequence:* loss of efficiency 
 - *When matching takes place:* at the design stage
-- *What is matched case-control study:* each person with disease who is included in the study as a case is matched with one or more disease free people (the controls). 
+- *What is matched case-control study:* each person with disease who is included in the study as a case is matched with one or more disease free people (the controls)
 	- Design with $M$ controls per case is known as $1:M$ matched study
 	- The case and each of the $M$ controls matched to that case are the matched set
 	- The characteristics used to pair or group cases and controls are matching factors
