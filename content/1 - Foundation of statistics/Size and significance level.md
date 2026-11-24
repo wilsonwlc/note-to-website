@@ -10,6 +10,7 @@ If the size of a test is less than or equal to pre-chosen threshold $\alpha$, th
 - The size is the maximum of the probability of a [[Type I error|Type I error]] over the null parameter space $\Theta_0$. It represents the actual worst scenario of falsely rejecting the null hypothesis. It tells how large the Type I error of this particular test can be
 - The significance level is the maximum Type I error rate (false positive) you are willing to tolerate *i.e.* acceptable before looking at the data
 - Choosing a smaller $\alpha$ makes the test more conservative
+- For a simple null hypothesis, the size and Type I error probability are always equal
 ### Caution
 - In continuous distributions with [[Hypothesis|simple null hypotheses]], we can often construct a test whose size is exactly $\alpha$. Size and significance level become interchangeable
 - However, in many important situations, exact equality is impossible
