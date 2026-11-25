@@ -1,3 +1,5 @@
+### Concept
+- Aka **one-sample z-test**
 ### Assumption
 - Let $X_{1},X_{2},...,X_{n}$ be a [[Random sample|random sample]] from the [[Normal distribution|normal distribution]] $N(\mu,\sigma^{2})$, where $\sigma$ is a known constant
 ### Hypothesis testing

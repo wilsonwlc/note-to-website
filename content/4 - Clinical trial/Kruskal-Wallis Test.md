@@ -25,6 +25,6 @@
 5. For a level $\alpha$ test,
 	- If $H \leq \chi_{\alpha, df=k-1}^{2}$, fail to reject $H_{0}$
 	- If $H>\chi_{\alpha, df=k-1}^{2}$, reject $H_{0}$
-6. The p-value is $$p = Pr(\chi_{k-1}^{2} > H)$$
+6. The [[p-value|p-value]] is $$p = Pr(\chi_{k-1}^{2} > H)$$
 ### Practice
 - This test procedure should be used only if minimum $n_{i} \geq 5$ *i.e.* if the smallest sample size for an individual group is at least 5. *Reason:* the decision rule is based on the large-sample approximation $$H \overset{\text{approx}}{\sim} \chi_{k-1}^{2}$$ under $H_0$
