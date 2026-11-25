@@ -61,3 +61,5 @@
 ### Application
 - [[Hypothesis testing - 1 normal sample with known variance|Hypothesis testing - 1 normal sample with known variance]]
 - [[Hypothesis testing - 1 normal sample with unknown variance|Hypothesis testing - 1 normal sample with unknown variance]]
+### Comparison
+![[p-value#Use p-value vs critical value for hypothesis test]]
