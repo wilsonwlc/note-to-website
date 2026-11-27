@@ -2,6 +2,7 @@
 - *What it does:* give a lower bound to the [[Population variance|variance]] of all unbiased estimators
 ### Theorem
 For any [[Bias|unbiased]] estimator $\hat{\theta}$ of $\theta$, $$\text{Var}(\hat{\theta}) \geq \frac{1}{nI(\theta)}$$
+- $I(\theta)$ is the [[Fisher Information|Fisher Information]]
 - $\frac{1}{nI(\theta)}$ is called **Cramér-Rao Lower Bound (CRLB)**
 - If the variance of an unbiased estimator $\hat{\theta}$ is equal to the Cramér-Rao Lower Bound, then $\hat{\theta}$ is called an **efficient estimator**
 ### Property
